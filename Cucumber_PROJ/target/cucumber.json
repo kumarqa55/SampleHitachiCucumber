@@ -1,0 +1,490 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3794053800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launches the Bank Portal Application",
+            "match": {
+              "location": "com.stepdefnitions.Login_SD.user_launches_the_bank_portal_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-01T15:29:24.041Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3002600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.HookDefnitions.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1776210600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.HookDefnitions.launchBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Bank Page Login",
+        "description": "",
+        "id": "bank-portal-page;bank-page-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.HookDefnitions.tearBrowser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 197993300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.HookDefnitions.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 206003300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enter Valid UserID \"mngr480408\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr480408\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.stepdefnitions.Login_SD.user_enter_valid_user_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248986000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Enter Valid Password \"veqytEm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"veqytEm\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.stepdefnitions.Login_SD.user_enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1477399900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Click on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.stepdefnitions.Login_SD.user_click_on_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1646784800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "NC:User Click on Menu Link \"newCustomer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"newCustomer\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_click_on_menu_link(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 977915100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Refresh the Page",
+            "match": {
+              "location": "com.stepdefnitions.NewCustomer_SD.user_refresh_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 880292300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "NC:User Click on Menu Link \"newCustomer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"newCustomer\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_click_on_menu_link(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 309762800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "NC:User Enter \"custName\" in Textbox \"custName_xpath\" from \"NewCustomer_PO\" Class",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"custName\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"custName_xpath\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"NewCustomer_PO\"",
+                  "offset": 58
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_enter_in_textbox_from_Class(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45996100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "NC:User Selects the \"maleRad_xpath\" Radio button from \"NewCustomer_PO\" Class",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maleRad_xpath\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"NewCustomer_PO\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_selects_the_radio_button_from_class(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 221004400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "NC:User Enters the \"dob\" in Calender \"dobCal_xpath\" from \"NewCustomer_PO\" Class",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dob\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"dobCal_xpath\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"NewCustomer_PO\"",
+                  "offset": 57
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_enters_the_in_calender_from_class(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 238002500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "NC:User Enter \"address\" in Textbox \"address_xpath\" from \"NewCustomer_PO\" Class",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"address\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"address_xpath\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"NewCustomer_PO\"",
+                  "offset": 56
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_enter_in_textbox_from_Class(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 192176100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "NC:User Enter \"city\" in Textbox \"city_xpath\" from \"NewCustomer_PO\" Class",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"city_xpath\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"NewCustomer_PO\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_enter_in_textbox_from_Class(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 172636300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "NC:User Enter \"state\" in Textbox \"state_xpath\" from \"NewCustomer_PO\" Class",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"state\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"state_xpath\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"NewCustomer_PO\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_enter_in_textbox_from_Class(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 169579200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "NC:User Enter \"pin\" in Textbox \"pin_xpath\" from \"NewCustomer_PO\" Class",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"pin_xpath\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"NewCustomer_PO\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_enter_in_textbox_from_Class(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 167582200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "NC:User Enter \"mobile_NO\" in Textbox \"phone_xpath\" from \"NewCustomer_PO\" Class",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mobile_NO\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"phone_xpath\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"NewCustomer_PO\"",
+                  "offset": 56
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_enter_in_textbox_from_Class(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 191966000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "NC:User Enter \"email\" in Textbox \"email_xpath\" from \"NewCustomer_PO\" Class",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"email_xpath\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"NewCustomer_PO\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_enter_in_textbox_from_Class(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 174771800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "NC:User Enter \"cust_Pwd\" in Textbox \"custPwd_xpath\" from \"NewCustomer_PO\" Class",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cust_Pwd\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"custPwd_xpath\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"NewCustomer_PO\"",
+                  "offset": 57
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_enter_in_textbox_from_Class(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1777694200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "NC:User Click on \"submit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"submit\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_click_on_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 171673100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "NC:User get the CustomerID",
+            "match": {
+              "location": "com.stepdefnitions.NewCustomer_SD.nc_user_get_the_CustomerID()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bank_Portal_Customer"
+          },
+          {
+            "name": "@New_Customer"
+          }
+        ]
+      }
+    ],
+    "name": "Bank Portal Page",
+    "description": "",
+    "id": "bank-portal-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/features/AddNewCustomer.feature",
+    "tags": [
+      {
+        "name": "@Bank_Portal_Customer",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
